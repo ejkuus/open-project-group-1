@@ -1,0 +1,94 @@
+[0.015s] Invoking command in '/home/eero/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs:/home/eero/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs:/home/eero/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/galactic LD_LIBRARY_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/eero/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eero/turtlebot3_ws/install/turtlebot3_node
+[0.083s] -- The C compiler identification is GNU 9.4.0
+[0.144s] -- The CXX compiler identification is GNU 9.4.0
+[0.148s] -- Check for working C compiler: /usr/bin/cc
+[0.230s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.232s] -- Detecting C compiler ABI info
+[0.322s] -- Detecting C compiler ABI info - done
+[0.341s] -- Detecting C compile features
+[0.342s] -- Detecting C compile features - done
+[0.344s] -- Check for working CXX compiler: /usr/bin/c++
+[0.441s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.441s] -- Detecting CXX compiler ABI info
+[0.545s] -- Detecting CXX compiler ABI info - done
+[0.563s] -- Detecting CXX compile features
+[0.563s] -- Detecting CXX compile features - done
+[0.569s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.593s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.594s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.657s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.682s] -- Found dynamixel_sdk: 3.8.4 (/home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.688s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.716s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.721s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.822s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.853s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.923s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.000s] -- Found message_filters: 3.2.6 (/opt/ros/galactic/share/message_filters/cmake)
+[1.044s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.046s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.063s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.063s] -- Looking for pthread.h
+[1.155s] -- Looking for pthread.h - found
+[1.155s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.240s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.241s] -- Looking for pthread_create in pthreads
+[1.325s] -- Looking for pthread_create in pthreads - not found
+[1.326s] -- Looking for pthread_create in pthread
+[1.414s] -- Looking for pthread_create in pthread - found
+[1.416s] -- Found Threads: TRUE  
+[1.551s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[1.615s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.679s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[1.687s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[1.697s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.984s] -- Found turtlebot3_msgs: 2.4.0 (/home/eero/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[2.171s] -- Configuring done
+[2.186s] -- Generating done
+[2.191s] -- Build files have been written to: /home/eero/turtlebot3_ws/build/turtlebot3_node
+[2.200s] Invoked command in '/home/eero/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs:/home/eero/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs:/home/eero/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/galactic LD_LIBRARY_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/eero/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eero/turtlebot3_ws/install/turtlebot3_node
+[2.204s] Invoking command in '/home/eero/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs:/home/eero/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs:/home/eero/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/galactic LD_LIBRARY_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eero/turtlebot3_ws/build/turtlebot3_node -- -j6 -l6
+[2.253s] [35m[1mScanning dependencies of target turtlebot3_node_lib[0m
+[2.331s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[2.332s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[2.334s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[2.334s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[2.337s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[2.340s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[2.982s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[5.556s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[5.919s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[6.012s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[6.133s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[15.583s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[15.984s] [ 85%] Built target turtlebot3_node_lib
+[15.998s] [35m[1mScanning dependencies of target turtlebot3_ros[0m
+[16.041s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[18.418s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[19.866s] [100%] Built target turtlebot3_ros
+[19.885s] Invoked command in '/home/eero/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs:/home/eero/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs:/home/eero/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/galactic LD_LIBRARY_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eero/turtlebot3_ws/build/turtlebot3_node -- -j6 -l6
+[19.889s] Invoking command in '/home/eero/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs:/home/eero/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs:/home/eero/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/galactic LD_LIBRARY_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eero/turtlebot3_ws/build/turtlebot3_node
+[19.902s] -- Install configuration: ""
+[19.902s] -- Execute custom install script
+[19.903s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[19.917s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[19.931s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[19.944s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[19.952s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[19.969s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[19.984s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[19.993s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[20.001s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[20.009s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[20.022s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[20.037s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[20.044s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[20.052s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[20.060s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[20.068s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[20.076s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.086s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.094s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[20.101s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[20.114s] -- Symlinking: /home/eero/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[20.131s] Invoked command in '/home/eero/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs:/home/eero/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs:/home/eero/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/galactic LD_LIBRARY_PATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eero/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eero/turtlebot3_ws/build/turtlebot3_node

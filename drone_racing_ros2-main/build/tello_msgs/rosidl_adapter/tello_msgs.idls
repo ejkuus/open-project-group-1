@@ -1,0 +1,3 @@
+/home/eero/finalProject/drone_racing_ros2-main/build/tello_msgs/rosidl_adapter/tello_msgs:msg/FlightData.idl
+/home/eero/finalProject/drone_racing_ros2-main/build/tello_msgs/rosidl_adapter/tello_msgs:msg/TelloResponse.idl
+/home/eero/finalProject/drone_racing_ros2-main/build/tello_msgs/rosidl_adapter/tello_msgs:srv/TelloAction.idl

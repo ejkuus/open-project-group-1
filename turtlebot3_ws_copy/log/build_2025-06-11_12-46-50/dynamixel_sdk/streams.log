@@ -1,0 +1,94 @@
+[0.080s] Invoking command in '/home/eero/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eero/turtlebot3_ws/install/turtlebot3_teleop:/home/eero/turtlebot3_ws/install/turtlebot3_example:/opt/ros/galactic /usr/bin/cmake /home/eero/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/eero/turtlebot3_ws/install/dynamixel_sdk
+[0.126s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.177s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.279s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.485s] -- Configuring done
+[0.499s] -- Generating done
+[0.503s] -- Build files have been written to: /home/eero/turtlebot3_ws/build/dynamixel_sdk
+[0.516s] Invoked command in '/home/eero/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eero/turtlebot3_ws/install/turtlebot3_teleop:/home/eero/turtlebot3_ws/install/turtlebot3_example:/opt/ros/galactic /usr/bin/cmake /home/eero/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/eero/turtlebot3_ws/install/dynamixel_sdk
+[0.517s] Invoking command in '/home/eero/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eero/turtlebot3_ws/install/turtlebot3_teleop:/home/eero/turtlebot3_ws/install/turtlebot3_example:/opt/ros/galactic /usr/bin/cmake --build /home/eero/turtlebot3_ws/build/dynamixel_sdk -- -j6 -l6
+[0.605s] [100%] Built target dynamixel_sdk
+[0.630s] [100%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[0.940s] running egg_info
+[0.941s] writing dynamixel_sdk.egg-info/PKG-INFO
+[0.942s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[0.942s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[0.993s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.994s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.035s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[1.051s] Invoked command in '/home/eero/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eero/turtlebot3_ws/install/turtlebot3_teleop:/home/eero/turtlebot3_ws/install/turtlebot3_example:/opt/ros/galactic /usr/bin/cmake --build /home/eero/turtlebot3_ws/build/dynamixel_sdk -- -j6 -l6
+[1.056s] Invoking command in '/home/eero/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eero/turtlebot3_ws/install/turtlebot3_teleop:/home/eero/turtlebot3_ws/install/turtlebot3_example:/opt/ros/galactic /usr/bin/cmake --install /home/eero/turtlebot3_ws/build/dynamixel_sdk
+[1.070s] -- Install configuration: ""
+[1.071s] -- Execute custom install script
+[1.073s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.073s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.073s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.074s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[1.074s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[1.075s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[1.076s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.077s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.077s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.077s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.078s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.079s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.079s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.079s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.079s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.080s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.080s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[1.080s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[1.081s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages//dynamixel_sdk.egg-info/PKG-INFO
+[1.081s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages//dynamixel_sdk.egg-info/SOURCES.txt
+[1.081s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages//dynamixel_sdk.egg-info/dependency_links.txt
+[1.082s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages//dynamixel_sdk.egg-info/top_level.txt
+[1.083s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/__init__.py
+[1.083s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/group_bulk_read.cpp
+[1.084s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/group_bulk_read.py
+[1.084s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/group_bulk_write.cpp
+[1.084s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/group_bulk_write.py
+[1.085s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[1.085s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[1.085s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/group_handler.cpp
+[1.086s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/group_sync_read.cpp
+[1.086s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/group_sync_read.py
+[1.086s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/group_sync_write.cpp
+[1.087s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/group_sync_write.py
+[1.087s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/packet_handler.cpp
+[1.088s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/packet_handler.py
+[1.088s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/port_handler.cpp
+[1.089s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/port_handler.py
+[1.089s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/port_handler_arduino.cpp
+[1.090s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/port_handler_linux.cpp
+[1.090s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/port_handler_mac.cpp
+[1.090s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/port_handler_windows.cpp
+[1.091s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[1.091s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/protocol1_packet_handler.py
+[1.092s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[1.092s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/protocol2_packet_handler.py
+[1.093s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk/robotis_def.py
+[1.094s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[1.095s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[1.095s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.095s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.095s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[1.095s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.096s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[1.097s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.097s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[1.097s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[1.098s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[1.098s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.099s] -- Symlinking: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.113s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.113s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[1.113s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.117s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.117s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.117s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.118s] -- Up-to-date symlink: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.118s] -- Up-to-date: /home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[1.159s] Listing '/home/eero/turtlebot3_ws/install/dynamixel_sdk/lib/python3.8/site-packages/dynamixel_sdk'...
+[1.166s] -- Up-to-date: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[1.166s] -- Installing: /home/eero/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[1.173s] Invoked command in '/home/eero/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eero/turtlebot3_ws/install/turtlebot3_teleop:/home/eero/turtlebot3_ws/install/turtlebot3_example:/opt/ros/galactic /usr/bin/cmake --install /home/eero/turtlebot3_ws/build/dynamixel_sdk

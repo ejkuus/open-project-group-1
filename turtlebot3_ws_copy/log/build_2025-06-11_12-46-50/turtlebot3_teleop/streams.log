@@ -1,0 +1,41 @@
+[0.957s] Invoking command in '/home/eero/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/eero/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build
+[1.264s] running develop
+[1.438s] Removing /home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3-teleop.egg-link (link to .)
+[1.475s] Invoked command in '/home/eero/turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/eero/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build
+[1.476s] Invoking command in '/home/eero/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/eero/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build install --record /home/eero/turtlebot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data --force
+[1.760s] running egg_info
+[1.761s] writing ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[1.761s] writing dependency_links to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[1.761s] writing entry points to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[1.761s] writing requirements to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[1.762s] writing top-level names to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[1.805s] reading manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.806s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.807s] running build
+[1.807s] running build_py
+[1.807s] creating /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build
+[1.807s] creating /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build/lib
+[1.807s] creating /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[1.807s] copying turtlebot3_teleop/__init__.py -> /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[1.807s] creating /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[1.808s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[1.808s] copying turtlebot3_teleop/script/__init__.py -> /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[1.808s] running install
+[1.809s] running install_lib
+[1.810s] creating /home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop
+[1.810s] copying /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop
+[1.810s] creating /home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[1.811s] copying /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[1.811s] copying /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[1.811s] byte-compiling /home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-38.pyc
+[1.812s] byte-compiling /home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-38.pyc
+[1.814s] byte-compiling /home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-38.pyc
+[1.814s] running install_data
+[1.814s] copying resource/turtlebot3_teleop -> /home/eero/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[1.815s] copying package.xml -> /home/eero/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[1.815s] running install_egg_info
+[1.818s] Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-2.3.1-py3.8.egg-info
+[1.819s] running install_scripts
+[1.839s] Installing teleop_keyboard script to /home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.839s] writing list of installed files to '/home/eero/turtlebot3_ws/build/turtlebot3_teleop/install.log'
+[1.872s] Invoked command in '/home/eero/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/eero/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eero/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/eero/turtlebot3_ws/build/turtlebot3_teleop/build install --record /home/eero/turtlebot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data --force

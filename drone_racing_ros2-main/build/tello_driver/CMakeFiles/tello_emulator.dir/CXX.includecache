@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eero/finalProject/drone_racing_ros2-main/tello_ros/tello_driver/src/tello_emulator.cpp
+cstdlib
+-
+iostream
+-
+thread
+-
+asio.hpp
+-
+

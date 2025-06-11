@@ -1,0 +1,20 @@
+In file included from [01m[K/home/eero/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/obstacle1.cpp:17[m[K:
+[01m[K/home/eero/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/obstacle1.hpp:36:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   36 | GZ_REGISTER_MODEL_PLUGIN(Obstacle1)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+In file included from [01m[K/home/eero/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/obstacles.cpp:17[m[K:
+[01m[K/home/eero/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/obstacles.hpp:39:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 | GZ_REGISTER_MODEL_PLUGIN(Obstacles)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+In file included from [01m[K/home/eero/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/traffic_light_plugin.cpp:17[m[K:
+[01m[K/home/eero/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/traffic_light_plugin.hpp:50:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   50 | GZ_REGISTER_MODEL_PLUGIN(TrafficLight)[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/home/eero/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/obstacle2.cpp:17[m[K:
+[01m[K/home/eero/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/obstacle2.hpp:37:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   37 | GZ_REGISTER_MODEL_PLUGIN(Obstacle2)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+In file included from [01m[K/home/eero/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/traffic_bar_plugin.cpp:17[m[K:
+[01m[K/home/eero/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/traffic_bar_plugin.hpp:43:37:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   43 | GZ_REGISTER_MODEL_PLUGIN(TrafficBar)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K

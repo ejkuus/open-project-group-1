@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from turtlebot3_msgs/action/Patrol.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module turtlebot3_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      " Define the goal")
+    struct Patrol_Goal {
+      geometry_msgs::msg::Vector3 goal;
+    };
+    struct Patrol_Result {
+      @verbatim (language="comment", text=
+        " Define the result")
+      string result;
+    };
+    struct Patrol_Feedback {
+      @verbatim (language="comment", text=
+        " Define a feedback message")
+      string state;
+    };
+  };
+};

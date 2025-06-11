@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "turtlebot3_node",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_node_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_node_lib-2af9ca3440c30f43b85d.json",
+					"name" : "turtlebot3_node_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_node_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_node_uninstall-c6973818bb7309754d56.json",
+					"name" : "turtlebot3_node_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot3_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot3_ros-d93372f309981ab09b4a.json",
+					"name" : "turtlebot3_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-eee55d9f036c1c47f12e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eero/turtlebot3_ws/build/turtlebot3_node",
+		"source" : "/home/eero/turtlebot3_ws/src/turtlebot3/turtlebot3_node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
