@@ -13,7 +13,7 @@ Aleksander, Eero, Elias and Santtu
 
  - *Terminal 2:*
     - $ cd ~/turtlebot3_ws$
-    - $ ros2 launch turtlebot3_gazebo empty_world.launch.py # This will inster the turtlebot into the open gazebo world
+    - $ ros2 launch turtlebot3_gazebo empty_world.launch.py # This will insert the turtlebot into the open gazebo world
 
  - *Terminal 3:*
     - $ cd ~/finalProject/drone_racing_ros2-main$
