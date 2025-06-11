@@ -9,7 +9,7 @@ Aleksander, Eero, Elias and Santtu
 - Open 4 Terminals:
 - *Terminal 1:*
     - $ cd ~/finalProject/drone_racing_ros2-main$
-    - $ ros2 launch tello_gazebo simple_launch.py' # This will open gazebo simulation with tello drone
+    - $ ros2 launch tello_gazebo simple_launch.py # This will open gazebo simulation with tello drone
 
  - *Terminal 2:*
     - $ cd ~/turtlebot3_ws$
