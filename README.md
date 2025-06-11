@@ -6,13 +6,15 @@ Aleksander, Eero, Elias and Santtu
 **How to run:**
 
 - Install Turtlebot v3: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup
+    - Following this creates the /turtlebot3_ws directory
+
 - Open 4 Terminals:
 - *Terminal 1:*
     - $ cd ~/finalProject/drone_racing_ros2-main$
     - $ ros2 launch tello_gazebo simple_launch.py # This will open gazebo simulation with tello drone
 
  - *Terminal 2:*
-    - $ cd ~/turtlebot3_ws$
+    - $ cd ~/turtlebot3_ws
     - $ ros2 launch turtlebot3_gazebo empty_world.launch.py # This will insert the turtlebot into the open gazebo world
 
  - *Terminal 3:*
