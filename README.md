@@ -33,3 +33,11 @@ Aleksander, Eero, Elias and Santtu
 - Now when the turtlebot gets close enough on the object, the drone will fly towards it, intimidating the object and then flying back to turtlebot.
 
 ![drone](https://github.com/ejkuus/open-project-group-1/blob/main/IMG_0620.gif)
+
+
+**What's working and whats not**
+
+- The drone howers and follows turtlebot and reacts to objects
+- However, it does not react correctly to the objects and starts to fly to the wrong direction, never returning
+- We found that it was challenging to implement the turtlebotv3 into gazebo, and the teleop keyboard doesn't work either
+- It was nice to see that the drone would follow the bot and react to the objects
