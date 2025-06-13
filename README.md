@@ -7,6 +7,7 @@ Aleksander, Eero, Elias and Santtu
 
 - Install Turtlebot v3: https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup
     - Following this creates the /turtlebot3_ws directory
+    - Edit the model.sdf file to the one found in root of the project (Path to file: turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_burger/model.sdf)
 
 **How to run the drone shield:**
 
