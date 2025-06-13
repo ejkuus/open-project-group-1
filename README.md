@@ -31,4 +31,4 @@ Aleksander, Eero, Elias and Santtu
 - Insert an object you like from the tello_gazebo package
 - Now when the turtlebot gets close enough on the object, the drone will fly towards it, intimidating the object and then flying back to turtlebot.
 
-GIF HERE
+![Drone](https://github.com/ejkuus/open-project-group-1/blob/main/IMG_0620.gif)
