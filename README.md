@@ -1,7 +1,17 @@
 # Group 1 Open project
-## Personal Drone shield
+**Personal Drone shield**
 
 Aleksander, Eero, Elias and Santtu
+
+## Scenario information and the vision
+
+Vision for the project was to create a personal drone shield. Simply putk, a Tello drone is protecting a turtlebot and flies towards a spotted threat near the turtlebot in order to keep the turtlebot safe. We chose this use case because it can be a relevant use case in many of the current political conflicts around the world.
+
+In an example scenario, the turtlebot represents some high value carriage, truck or payload that is in in transit whilst it is approached by external threats. A use case where this kind of two way communication would be used is when the drone is used as a way to take down unfriendly drones approaching the payload. When the drone approaches the payload, the defensive drone could use e.g. an attached net to tangle and take down the unfriendly drone and return back to the payload and send a message to continue the trip.
+
+In our simplified project we planned for the turtlebot to plan a path through a known map. The drone would then follow the bot through the planned route and patrols around it and if it detects something unfamiliar that moves, then the drone starts to fly towards the threat to intimidate it. If the threat backs off, the drone returns to patrolling around the turtlebot. As mentioned in the last section of this README, this goal was not reached mostly due to lack of time due to difficulties scheduling in course work an actual work simultaneously.
+
+## Instructions 
 
 **Installing turtlebot:**
 
@@ -34,10 +44,10 @@ Aleksander, Eero, Elias and Santtu
 
 ![drone](https://github.com/ejkuus/open-project-group-1/blob/main/IMG_0620.gif)
 
+## Discussion
+**What's working and what's not**
 
-**What's working and whats not**
-
-- The drone howers and follows turtlebot and reacts to objects
+- The drone hovers and follows the turtlebot and reacts to objects
 - However, it does not react correctly to the objects and starts to fly to the wrong direction, never returning
 - We found that it was challenging to implement the turtlebotv3 into gazebo, and the teleop keyboard doesn't work either
 - It was nice to see that the drone would follow the bot and react to the objects
